@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<head>
+    <!-- Query version link -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <!-- jQuery validation link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+    <!-- bxslider-->
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js">
+    </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    </link>
+    </script>
+    <!-- light box link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js">
+    </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    </link>
+    <link rel="stylesheet" href="style.css">
+    <script src="formValidation.js"></script>
+</head>
+<script>
+    $(document).ready(function () {
+        $(".slider").bxSlider();
+    })
+    // $(document).ready(function(){
+    //   $(".slider").lightBox();
+    // })
+</script>
+
+<body>
+    <h2>Registration</h2>
+    <form action=" " name="registration">
+
+        <label for="firstname">First Name</label>
+        <input type="text" name="firstname" id="firstname" placeholder="moonisa" />
+
+        <label for="lastname">Last Name</label>
+        <input type="text" name="lastname" id="lastname" placeholder="sana" />
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="moonisa@sana.com" />
+
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;" />
+        <button type="submit">Submit</button>
+    </form>
+    <centre>
+        <div class="slider">
+            <div>I am a slider<img src="https://www.w3schools.com/images/lamp.jpg" alt="Lamp1" width="32" height="32"
+                    data-lightbox="myLightBox"></div>
+            <div>I am a lightBox<img src="https://www.w3schools.com/images/lamp.jpg" alt="Lamp2" width="42" height="32">
+            </div>
+            <div>I am another slide<img src="https://www.w3schools.com/images/lamp.jpg" alt="Lamp3" width="52"
+                    height="32">
+            </div>
+        </div>
+    </centre>
+
+
+</body>
+
+</html>
